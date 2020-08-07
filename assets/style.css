@@ -18,6 +18,12 @@ body {
     line-height: 2em;
     justify-content: center;
 }
+#about p:first-of-type {
+    margin-top: 20px;
+}
+#about a {
+    color: rgb(8, 138, 161)
+}
 .teal {
     color: rgb(16, 105, 121);
 }
@@ -45,6 +51,7 @@ h2 {
 }
 #coffee h2 {
     font-family: 'Pacifico', cursive;
+    font-size: 1.65em;
 }
 #map h2 {
     font-family: 'Amatic SC', cursive;
@@ -64,8 +71,8 @@ h2 {
     left: 2%;
     width: 310px;
 }
-#scav p, #map p {
-    top: 30%
+#scav p, #map p, #coffee p {
+    top: 30%;
 }
 .port:hover {
     background-color: black;
@@ -79,14 +86,17 @@ h2 {
 }
 .link1, .link2 {
     position: absolute;
-    left: 50%;
-    bottom: 50px;
-    transform: translate(-50%, -50%);
+    /* left: 50%; */
+    bottom: 20px;
+    /* transform: translate(-50%, -50%); */
     border: 2px solid black;
     border-radius: 25px;
 }
+.link1 {
+    left: 35px;
+}
 .link2 {
-    bottom: 2px;
+    right: 35px;
 }
 .link1:hover, .link2:hover {
     opacity: 1;

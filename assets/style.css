@@ -42,7 +42,7 @@ body {
 }
 h2 {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -80,6 +80,9 @@ h2 {
     transform: scale(1.1);
     color: snow;
     /* opacity: .4; */
+}
+#coffee:hover {
+    opacity: .8;
 }
 #portfolio {
     margin-bottom: 20px;

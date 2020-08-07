@@ -79,7 +79,6 @@ h2 {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     color: snow;
-    /* opacity: .4; */
 }
 #coffee:hover {
     opacity: .8;
@@ -89,9 +88,7 @@ h2 {
 }
 .link1, .link2 {
     position: absolute;
-    /* left: 50%; */
     bottom: 20px;
-    /* transform: translate(-50%, -50%); */
     border: 2px solid black;
     border-radius: 25px;
 }
@@ -106,7 +103,6 @@ h2 {
     background-color: rgb(8, 138, 161);
 }
 #contact img{
-    /* align-content: center; */
     margin: 10%;
 }
 #portfolio {
